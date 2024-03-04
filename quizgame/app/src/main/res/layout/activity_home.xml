@@ -1,0 +1,211 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is the SI unit of force?" />
+
+        <CheckBox
+            android:id="@+id/option1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Newton" />
+
+        <CheckBox
+            android:id="@+id/option1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Joule" />
+
+        <CheckBox
+            android:id="@+id/option1_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Watt" />
+
+        <CheckBox
+            android:id="@+id/option1_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ohm" />
+
+        <CheckBox
+            android:id="@+id/option1_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volt" />
+
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Which of the following is a fundamental particle in an atom?" />
+
+        <CheckBox
+            android:id="@+id/option2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Electron" />
+
+        <CheckBox
+            android:id="@+id/option2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Proton" />
+
+        <CheckBox
+            android:id="@+id/option2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Neutron" />
+
+        <CheckBox
+            android:id="@+id/option2_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Photon" />
+
+        <CheckBox
+            android:id="@+id/option2_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quark" />
+
+        <TextView
+            android:id="@+id/question3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is the speed of light in a vacuum?" />
+
+        <CheckBox
+            android:id="@+id/option3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="300,000 km/s" />
+
+        <CheckBox
+            android:id="@+id/option3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="150,000 km/s" />
+
+        <CheckBox
+            android:id="@+id/option3_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="450,000 km/s" />
+
+        <CheckBox
+            android:id="@+id/option3_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="600,000 km/s" />
+
+        <CheckBox
+            android:id="@+id/option3_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="750,000 km/s" />
+
+        <TextView
+            android:id="@+id/question4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Which law of motion states that for every action, there is an equal and opposite reaction?" />
+
+        <RadioGroup
+            android:id="@+id/question4_options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Newton's First Law" />
+
+            <RadioButton
+                android:id="@+id/option4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Newton's Second Law" />
+
+            <RadioButton
+                android:id="@+id/option4_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Archimedes' Principle" />
+
+            <RadioButton
+                android:id="@+id/option4_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kepler's Laws of Planetary Motion" />
+
+            <RadioButton
+                android:id="@+id/option4_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hooke's Law" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is the formula for calculating gravitational potential energy?" />
+
+        <RadioGroup
+            android:id="@+id/question5_options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option5_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mgh" />
+
+            <RadioButton
+                android:id="@+id/option5_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1/2 * mv^2" />
+
+            <RadioButton
+                android:id="@+id/option5_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="P=VI" />
+
+            <RadioButton
+                android:id="@+id/option5_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="F=ma" />
+
+            <RadioButton
+                android:id="@+id/option5_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="W=fd" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit Answers" />
+
+    </LinearLayout>
+</ScrollView>
