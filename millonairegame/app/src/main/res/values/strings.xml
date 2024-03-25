@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">millonairegame</string>
+    <string name="forgot_your_password"><u>Forgot your password</u></string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="alt">alt</string>
+    <string name="mind_game_s">Who want\'s to be millonaire</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_register">Don\'t have an account? Register</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="register">Register</string>
+    <string name="next">Next</string>
+    <string name="play_again">Play again</string>
+    <string name="exit">Exit</string>
+    <string name="your_score_0">Your Score: 0</string>
+</resources>
